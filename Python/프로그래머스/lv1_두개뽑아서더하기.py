@@ -7,3 +7,5 @@ def solution(numbers):
     answer.sort()
 
     return answer
+
+print(solution([100,0]))
