@@ -2,7 +2,6 @@ def solution(s):
     
     stack=[]
     for i in s:
-        
         if len(stack)>0:
             if stack[-1] ==i:
                 stack.pop() 
